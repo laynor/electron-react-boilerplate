@@ -191,6 +191,8 @@
     "electron-rebuild": "^1.5.7",
     "font-awesome": "^4.7.0",
     "history": "^4.6.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
     "pouchdb": "^6.2.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
@@ -201,6 +203,7 @@
     "react-router-redux": "^5.0.0-alpha.6",
     "redux": "^3.6.0",
     "redux-thunk": "^2.2.0",
+    "shortid": "^2.2.8",
     "source-map-support": "^0.4.15"
   },
   "devEngines": {

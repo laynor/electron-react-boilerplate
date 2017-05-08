@@ -15,6 +15,10 @@ defaultDb.get('test').then(
     console.log,
     () => {
         defaultDb.put({ _id: 'test', value: 'test' })
+        defaultDb.bulkDocs([
+          activity('programming'),
+          activity('reading')
+        ])
     })
 
 export default function storage(state: PersistentStorage = defaultStorage, action: any): PersistentStorage {
